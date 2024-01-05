@@ -27,4 +27,7 @@ elif znamenko == "**":
     print(x ** y)
 
 elif znamenko == "/*":
-    print(x ** (1/y))
+    if y < 0:
+        print ("Chyba!")
+    else:
+        print(x ** (1/y))
